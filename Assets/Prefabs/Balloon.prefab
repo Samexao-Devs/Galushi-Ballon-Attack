@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2143884174785398815}
   - component: {fileID: 2143884174785398814}
   - component: {fileID: 509371043}
+  - component: {fileID: 509371047}
   m_Layer: 0
   m_Name: Balloon
   m_TagString: Untagged
@@ -256,3 +257,22 @@ PolygonCollider2D:
       - {x: -0.23114413, y: -0.96864676}
       - {x: -0.24629897, y: -0.9383371}
       - {x: -0.2538764, y: -0.913079}
+--- !u!95 &509371047
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143884174785398813}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 151fd8a9525a0ed43afe799bff4728e1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
