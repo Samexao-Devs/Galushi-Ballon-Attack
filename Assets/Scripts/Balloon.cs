@@ -17,7 +17,7 @@ public class Balloon : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        spriteRenderer.sprite = balloonSprites[Random.Range(0, 1)];
+        spriteRenderer.sprite = balloonSprites[Random.Range(0, 3)];
 
         transform.position = new Vector3(Random.Range(-8.25f, 3.6f), transform.position.y, transform.position.z);
 
