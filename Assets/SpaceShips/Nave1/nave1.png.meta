@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 13f59f9332e6ad742a9eef9246c8c24b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3861394869558184269
+    second: nave1_0
+  - first:
+      213: 2176047846310567711
+    second: nave1_1
+  - first:
+      213: 7404007284975939523
+    second: nave1_2
+  - first:
+      213: -6469800723209769694
+    second: nave1_3
+  - first:
+      213: 1866036644821835189
+    second: nave1_4
+  - first:
+      213: 3027497588316874073
+    second: nave1_5
+  - first:
+      213: 5305083661682650133
+    second: nave1_6
+  - first:
+      213: -507690306291687851
+    second: nave1_7
+  - first:
+      213: 1396018469814468950
+    second: nave1_8
+  - first:
+      213: 8504646229923235343
+    second: nave1_9
+  - first:
+      213: 3975473325339945516
+    second: nave1_10
+  - first:
+      213: 9144889320343963413
+    second: nave1_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +107,285 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: nave1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1278
+        width: 613
+        height: 626
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6f77e13d1996ac0800000000000000
+      internalID: -3861394869558184269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_1
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1278
+        width: 613
+        height: 626
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f589dacffd23e10800000000000000
+      internalID: 2176047846310567711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_2
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1278
+        width: 613
+        height: 626
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf2567c56150c660800000000000000
+      internalID: 7404007284975939523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_3
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1278
+        width: 613
+        height: 626
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d248d4586a636a0800000000000000
+      internalID: -6469800723209769694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 599
+        width: 613
+        height: 626
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd9778117e75e910800000000000000
+      internalID: 1866036644821835189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_5
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 578
+        width: 613
+        height: 673
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955aaf52405d30a20800000000000000
+      internalID: 3027497588316874073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_6
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 595
+        width: 613
+        height: 626
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ca2569b717f9940800000000000000
+      internalID: 5305083661682650133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_7
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 599
+        width: 613
+        height: 626
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e13953b5254f8f0800000000000000
+      internalID: -507690306291687851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5.666687
+        width: 613.25
+        height: 626.3333
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6510d21e667af5310800000000000000
+      internalID: 1396018469814468950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_9
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 5.666687
+        width: 613.25
+        height: 626.3333
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0680f2cfa2960670800000000000000
+      internalID: 8504646229923235343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_10
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 5.666687
+        width: 613.25
+        height: 626.3333
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aadea2de7bb2730800000000000000
+      internalID: 3975473325339945516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave1_11
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 5.666687
+        width: 613.25
+        height: 626.3333
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5178d59926c29ee70800000000000000
+      internalID: 9144889320343963413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
