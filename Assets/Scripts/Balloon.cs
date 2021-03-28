@@ -6,7 +6,7 @@ public class Balloon : MonoBehaviour
 {
     [SerializeField] Vector3 force;
     [SerializeField] Sprite[] balloonSprites;
-
+    private int Vida = 1;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
 
@@ -38,5 +38,10 @@ public class Balloon : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+    }
+    public void Hit()
+    {
+        Vida = Vida -2;
+        if (Vida < 0) Destroy(gameObject);
     }
 }

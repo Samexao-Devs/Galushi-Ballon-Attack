@@ -5,9 +5,9 @@ using UnityEngine;
 public class BalloonSpawner : MonoBehaviour
 
 {
-
+    
     [SerializeField] GameObject balloonPrefab;
-    // Start is called before the first frame update
+    
     void Start()
     {
         InvokeRepeating("Spawn", 0.0f, .6f);
@@ -23,4 +23,6 @@ public class BalloonSpawner : MonoBehaviour
         Instantiate(balloonPrefab, transform.position, transform.rotation);
     
     }
+
+    
 }
