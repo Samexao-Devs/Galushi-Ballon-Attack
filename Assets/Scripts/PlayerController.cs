@@ -36,7 +36,12 @@ public class PlayerController : MonoBehaviour
         
         vidaActual = vidaActual - Time.deltaTime;
         if (vidaActual < 0) rb.gravityScale = 50;
+            
+        
+        
+
     }
+    
 
     private void FixedUpdate()
     {
