@@ -16,14 +16,15 @@ public class PlayerController : MonoBehaviour
     public EdgeCollider2D nb;
     void Start()
     {
-       
+        nb.isTrigger = false;
+        rb.gravityScale = 0;
         rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
         input.y = Input.GetAxis("Vertical");
 
 
