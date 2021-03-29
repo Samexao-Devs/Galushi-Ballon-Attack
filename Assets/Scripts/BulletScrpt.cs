@@ -34,7 +34,7 @@ public class BulletScrpt : MonoBehaviour
         {
             ballon.Hit();
             ScoreScript.scoreValue += 10;
-            PlayerController.vidaActual += 1;
+            if(PlayerController.vidaActual<10) PlayerController.vidaActual += 1;
         }
         DestroyBullet();
     }
