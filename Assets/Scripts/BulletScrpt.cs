@@ -33,6 +33,7 @@ public class BulletScrpt : MonoBehaviour
         if (ballon != null)
         {
             ballon.Hit();
+            ScoreScript.scoreValue += 10;
         }
         DestroyBullet();
     }

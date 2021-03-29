@@ -40,8 +40,9 @@ public class PlayerController : MonoBehaviour
         Vector3 direction;
         if (transform.localScale.x == 2.9f) direction = Vector3.left;
         else direction = Vector3.left;
-
         GameObject bullet= Instantiate(BulletPrefab, transform.position + direction * 2.0f, Quaternion.identity);
         bullet.GetComponent<BulletScrpt>().SetDirection(direction);
+
+       
     }
 }
