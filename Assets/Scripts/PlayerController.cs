@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     Vector2 input;
     private float LastShoot;
     public Image barraDeVida;
-    public  float vidaActual;
+    public static float vidaActual =10;
     public float vidaMaxima;
    
     void Start()
