@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
             Shoot();
             LastShoot = Time.time;
 		}
-        barraDeVida.fillAmount = vidaActual / vidaMaxima;
+        //barraDeVida.fillAmount = vidaActual / vidaMaxima;
         
         vidaActual = vidaActual - Time.deltaTime;
         if (vidaActual < 0) Destroy(gameObject);
