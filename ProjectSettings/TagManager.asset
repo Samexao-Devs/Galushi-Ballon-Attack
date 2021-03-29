@@ -7,7 +7,6 @@ TagManager:
   - TopWall
   - LeftWall
   - RightWall
-  - NaveBottom
   layers:
   - Default
   - TransparentFX
