@@ -16,8 +16,7 @@ public class PlayerController : MonoBehaviour
     public EdgeCollider2D nb;
     void Start()
     {
-        nb.isTrigger = false;
-        rb.gravityScale = 0;
+        
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -36,10 +35,11 @@ public class PlayerController : MonoBehaviour
         barraDeVida.fillAmount = vidaActual / vidaMaxima;
         
         vidaActual = vidaActual - Time.deltaTime;
-        if (vidaActual < 0) rb.gravityScale = 50;
-        nb.isTrigger = true;
-        
-        
+        if (vidaActual < 0) rb.gravityScale = 50 ;
+        if (vidaActual < 0) nb.isTrigger = true;
+
+
+
 
     }
     
