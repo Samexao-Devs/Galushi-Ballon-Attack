@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         barraDeVida.fillAmount = vidaActual / vidaMaxima;
         
         vidaActual = vidaActual - Time.deltaTime;
-        if (vidaActual < 0) Destroy(gameObject);
+        if (vidaActual < 0) rb.gravityScale = 50;
     }
 
     private void FixedUpdate()
