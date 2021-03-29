@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,7 +10,10 @@ public class PlayerController : MonoBehaviour
     public float speed;
     Vector2 input;
     private float LastShoot;
-    // Start is called before the first frame update
+    public Image barraDeVida;
+    public  float vidaActual;
+    public float vidaMaxima;
+   
     void Start()
     {
        
@@ -28,6 +32,10 @@ public class PlayerController : MonoBehaviour
             Shoot();
             LastShoot = Time.time;
 		}
+        barraDeVida.fillAmount = vidaActual / vidaMaxima;
+        
+        vidaActual = vidaActual - Time.deltaTime;
+        if (vidaActual < 0) Destroy(gameObject);
     }
 
     private void FixedUpdate()
@@ -45,4 +53,5 @@ public class PlayerController : MonoBehaviour
 
        
     }
+   
 }

@@ -26,7 +26,7 @@ public class BulletScrpt : MonoBehaviour
         Destroy(gameObject);
 	}
 
-	private void OnTriggerEnter2D(Collider2D collision)
+	private void OnTriggerEnter2D(Collider2D collision, PlayerController vidaActual)
 	{
         Balloon ballon = collision.GetComponent<Balloon>();
 
@@ -34,6 +34,7 @@ public class BulletScrpt : MonoBehaviour
         {
             ballon.Hit();
             ScoreScript.scoreValue += 10;
+            vidaActual.vidaActual += 1;
         }
         DestroyBullet();
     }
