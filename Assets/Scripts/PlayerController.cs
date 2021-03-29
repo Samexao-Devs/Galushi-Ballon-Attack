@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public Image barraDeVida;
     public static float vidaActual =10;
     public float vidaMaxima;
-   
+    public EdgeCollider2D nb;
     void Start()
     {
        
@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
         
         vidaActual = vidaActual - Time.deltaTime;
         if (vidaActual < 0) rb.gravityScale = 50;
-            
+        nb.isTrigger = true;
         
         
 
@@ -58,5 +58,12 @@ public class PlayerController : MonoBehaviour
 
        
     }
-   
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "NaveBottom")
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
 }
