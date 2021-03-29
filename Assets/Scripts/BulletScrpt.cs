@@ -7,6 +7,7 @@ public class BulletScrpt : MonoBehaviour
     private Rigidbody2D Rigidbody2D;
     public float Speed;
     private Vector2 Direction;
+    
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();

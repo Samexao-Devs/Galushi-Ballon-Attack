@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
         input.y = Input.GetAxis("Vertical");
 
 
-		if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)
+		if (Input.GetKey(KeyCode.Mouse0) && Time.time > LastShoot + 0.25f)
 		{
             Shoot();
             LastShoot = Time.time;
