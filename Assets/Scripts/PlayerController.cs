@@ -18,7 +18,8 @@ public class PlayerController : MonoBehaviour
     public EdgeCollider2D nb;
     public Image textoGameOver;
     public AudioClip GameOver;
-    
+    public Button PauseButton;
+
     void Start()
     {
         
@@ -55,6 +56,7 @@ public class PlayerController : MonoBehaviour
         if (vidaActual < 0)
         {
             textoGameOver.gameObject.SetActive(true);
+            PauseButton.gameObject.SetActive(false);
             Camera.main.GetComponent<AudioSource>().PlayOneShot(GameOver);
 
         }
