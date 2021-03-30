@@ -580,7 +580,7 @@ Transform:
   m_LocalScale: {x: 0.8784237, y: 0.833443, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &458643338
 MonoBehaviour:
@@ -710,7 +710,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e6b985b15a97a1048b1cf363c860765f, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -995,7 +995,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &583816532
 GameObject:
@@ -1038,7 +1038,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &696319727
 GameObject:
@@ -2203,7 +2203,7 @@ Transform:
   - {fileID: 1809565949}
   - {fileID: 696319728}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1981675949
 GameObject:
@@ -2297,7 +2297,7 @@ RectTransform:
   m_Children:
   - {fileID: 36876851}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2397,7 +2397,7 @@ RectTransform:
   - {fileID: 1868967424}
   - {fileID: 1171589573}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2460,6 +2460,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1289920983973158704, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
+        type: 3}
+      propertyPath: Sound
+      value: 
+      objectReference: {fileID: 8300000, guid: e6b985b15a97a1048b1cf363c860765f, type: 3}
+    - target: {fileID: 1289920983973158704, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
+        type: 3}
+      propertyPath: SoundExploit
+      value: 
+      objectReference: {fileID: 8300000, guid: 18fe67a3e65660c4a9d80f91d93100f4, type: 3}
     - target: {fileID: 6858870417963811849, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
         type: 3}
       propertyPath: m_Name

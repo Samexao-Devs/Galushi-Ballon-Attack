@@ -9,6 +9,7 @@ public class BulletScrpt : MonoBehaviour
     public float Speed;
     private Vector2 Direction;
     public AudioClip Sound;
+    public AudioClip SoundExploit;
 
 
     void Start()
@@ -29,6 +30,7 @@ public class BulletScrpt : MonoBehaviour
     public void DestroyBullet()
 	{
         Destroy(gameObject);
+        Camera.main.GetComponent<AudioSource>().PlayOneShot(SoundExploit);
     }
 
 	private void OnTriggerEnter2D(Collider2D collision)
