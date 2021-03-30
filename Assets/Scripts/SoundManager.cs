@@ -15,4 +15,12 @@ public class SoundManager : MonoBehaviour
     {
         
     }
+    public void BajarSonido()
+    {
+        AudioListener.volume = 0;
+    }
+    public void Subironido()
+    {
+        AudioListener.volume = 1;
+    }
 }
