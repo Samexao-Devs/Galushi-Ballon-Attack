@@ -8,10 +8,13 @@ public class BulletScrpt : MonoBehaviour
     private Rigidbody2D Rigidbody2D;
     public float Speed;
     private Vector2 Direction;
-    
+    public AudioClip Sound;
+
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
+        Camera.main.GetComponent<AudioSource>().PlayOneShot(Sound);
     }
 
     // Update is called once per frame
@@ -26,7 +29,7 @@ public class BulletScrpt : MonoBehaviour
     public void DestroyBullet()
 	{
         Destroy(gameObject);
-	}
+    }
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
@@ -58,5 +61,5 @@ public class BulletScrpt : MonoBehaviour
         }
         DestroyBullet();
     }
-	
+
 }
