@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,10 +16,14 @@ public class PlayerController : MonoBehaviour
     public static float vidaActual =10;
     public float vidaMaxima;
     public EdgeCollider2D nb;
+    public Image textoGameOver;
+    
     void Start()
     {
         
         rb = GetComponent<Rigidbody2D>();
+		
+        
     }
 
     // Update is called once per frame
@@ -39,10 +45,15 @@ public class PlayerController : MonoBehaviour
         if (vidaActual < 0) nb.isTrigger = true;
 
 
-
+        if (vidaActual < 0)
+        {
+            textoGameOver.gameObject.SetActive(true);
+            
+        }
 
     }
     
+
 
     private void FixedUpdate()
     {
