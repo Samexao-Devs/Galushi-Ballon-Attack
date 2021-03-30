@@ -1038,11 +1038,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 12
-=======
-  m_RootOrder: 13
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &696319727
 GameObject:
@@ -2464,7 +2460,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< Updated upstream
     - target: {fileID: 1289920983973158704, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
         type: 3}
       propertyPath: Sound
@@ -2476,9 +2471,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 18fe67a3e65660c4a9d80f91d93100f4, type: 3}
     - target: {fileID: 6858870417963811849, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
-=======
-    - target: {fileID: 1130243480696852474, guid: 4a2d9b5c03fdca14fb89e78e97a8216b,
->>>>>>> Stashed changes
         type: 3}
       propertyPath: m_Name
       value: Bullet
