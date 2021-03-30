@@ -9,5 +9,7 @@ public class Controladorescena : MonoBehaviour
     public void CambiarEscena(string nombre)
     {
         SceneManager.LoadScene(nombre);
+        ScoreScript.scoreValue = 0;
+        PlayerController.vidaActual = 10;
     }
 }
