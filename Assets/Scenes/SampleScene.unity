@@ -342,6 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458643337}
   - component: {fileID: 458643336}
+  - component: {fileID: 458643338}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -367,7 +368,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f3576c3221a060f489567eb2cb5ee665, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -406,13 +407,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458643335}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.21, y: -0.656, z: 0}
-  m_LocalScale: {x: 0.90149826, y: 0.8524522, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.20800781, y: -0.5300293, z: 0}
+  m_LocalScale: {x: 0.8784237, y: 0.833443, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &458643338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458643335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4898bf3f205254a90f3bdbbac39a61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fondo: {fileID: 458643336}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +685,7 @@ GameObject:
   - component: {fileID: 696319729}
   m_Layer: 0
   m_Name: NaveBottom
-  m_TagString: Untagged
+  m_TagString: NaveBottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1632,7 +1646,7 @@ PrefabInstance:
     - target: {fileID: 2143884174785398810, guid: be74baf65b32d894eb45f32d521eaa04,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2143884174785398810, guid: be74baf65b32d894eb45f32d521eaa04,
         type: 3}
