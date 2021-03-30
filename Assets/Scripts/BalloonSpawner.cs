@@ -10,7 +10,7 @@ public class BalloonSpawner : MonoBehaviour
     
     void Start()
     {
-        InvokeRepeating("Spawn", 0.0f, .6f);
+        InvokeRepeating("Spawn", 0.0f, .9000f);
     }
 
     // Update is called once per frame

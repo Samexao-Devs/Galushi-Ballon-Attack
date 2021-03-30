@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Balloon : MonoBehaviour
+public class BalloonGreen : MonoBehaviour
 {
     [SerializeField] Vector3 force;
     [SerializeField] Sprite[] balloonSprites;
     private int Vida = 1;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,14 +21,12 @@ public class Balloon : MonoBehaviour
 
         force = new Vector3(Random.Range(-100, 100), Random.Range(100, 200), 0);
         rb.AddForce(force);
-
-
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -41,7 +37,7 @@ public class Balloon : MonoBehaviour
     }
     public void Hit()
     {
-        Vida = Vida -2;
+        Vida = Vida - 2;
         if (Vida < 0) Destroy(gameObject);
     }
 }
