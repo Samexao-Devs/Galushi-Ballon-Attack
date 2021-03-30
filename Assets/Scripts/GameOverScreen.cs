@@ -11,6 +11,7 @@ public class GameOverScreen : MonoBehaviour
 		SceneManager.LoadScene("SampleScene");
 		PlayerController.vidaActual = 10;
 		ScoreScript.scoreValue = 0;
+
 	}
 	public void MainButton()
 	{
