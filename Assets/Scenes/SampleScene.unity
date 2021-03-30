@@ -1137,10 +1137,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2353,10 +2353,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2461,21 +2461,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1289920983973158704, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
-        type: 3}
-      propertyPath: Sound
-      value: 
-      objectReference: {fileID: 8300000, guid: e6b985b15a97a1048b1cf363c860765f, type: 3}
-    - target: {fileID: 1289920983973158704, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
-        type: 3}
-      propertyPath: SoundExploit
-      value: 
-      objectReference: {fileID: 8300000, guid: 18fe67a3e65660c4a9d80f91d93100f4, type: 3}
-    - target: {fileID: 6858870417963811849, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
-        type: 3}
-      propertyPath: m_Name
-      value: Bullet
-      objectReference: {fileID: 0}
     - target: {fileID: 3900391400925858325, guid: 4a2d9b5c03fdca14fb89e78e97a8216b,
         type: 3}
       propertyPath: m_RootOrder
@@ -2530,6 +2515,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1289920983973158704, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
+        type: 3}
+      propertyPath: Sound
+      value: 
+      objectReference: {fileID: 8300000, guid: e6b985b15a97a1048b1cf363c860765f, type: 3}
+    - target: {fileID: 1289920983973158704, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
+        type: 3}
+      propertyPath: SoundExploit
+      value: 
+      objectReference: {fileID: 8300000, guid: 18fe67a3e65660c4a9d80f91d93100f4, type: 3}
+    - target: {fileID: 6858870417963811849, guid: f33fb01e04a52fd43a22fab99ddc4ea1,
+        type: 3}
+      propertyPath: m_Name
+      value: Bullet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a2d9b5c03fdca14fb89e78e97a8216b, type: 3}
