@@ -12,6 +12,6 @@ public class GameOverScreen : MonoBehaviour
 	}
 	public void MainButton()
 	{
-		SceneManager.LoadScene("");
+		SceneManager.LoadScene("New Scene");
 	}
 }
