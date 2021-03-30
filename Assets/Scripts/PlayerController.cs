@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public float vidaMaxima;
     public EdgeCollider2D nb;
     public Image textoGameOver;
+    public AudioClip GameOver;
     
     void Start()
     {
@@ -54,7 +55,8 @@ public class PlayerController : MonoBehaviour
         if (vidaActual < 0)
         {
             textoGameOver.gameObject.SetActive(true);
-            
+            Camera.main.GetComponent<AudioSource>().PlayOneShot(GameOver);
+
         }
 
     }
