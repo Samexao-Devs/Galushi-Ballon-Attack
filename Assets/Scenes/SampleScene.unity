@@ -2430,6 +2430,7 @@ MonoBehaviour:
   nb: {fileID: 696319729}
   textoGameOver: {fileID: 1776765139}
   GameOver: {fileID: 8300000, guid: c5c72f1d1d3eb2243acf2fcf73f106b1, type: 3}
+  PauseButton: {fileID: 508514957}
 --- !u!50 &1608854823
 Rigidbody2D:
   serializedVersion: 4
