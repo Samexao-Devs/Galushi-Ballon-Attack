@@ -9,11 +9,13 @@ public class BalloonBlue : MonoBehaviour
     private int Vida = 1;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
-
+    public static int x = 300;
+    public static int y = 500;
 
     // Start is called before the first frame update
     void Start()
     {
+        
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -21,7 +23,7 @@ public class BalloonBlue : MonoBehaviour
 
         transform.position = new Vector3(Random.Range(-8.25f, 3.6f), transform.position.y, transform.position.z);
 
-        force = new Vector3(Random.Range(-100, 100), Random.Range(300, 500), 0);
+        force = new Vector3(Random.Range(-100, 100), Random.Range(x, y), 0);
         rb.AddForce(force);
 
 

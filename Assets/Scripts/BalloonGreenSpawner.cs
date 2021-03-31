@@ -5,6 +5,7 @@ using UnityEngine;
 public class BalloonGreenSpawner : MonoBehaviour
 {
     [SerializeField] GameObject balloonPrefab2;
+    public static float v = .90000f;
     // Start is called before the first frame update
     void Start()
     {

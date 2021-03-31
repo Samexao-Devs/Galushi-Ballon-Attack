@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8864882014527660747}
   - component: {fileID: 7006672330100835660}
   - component: {fileID: 435907153}
-  - component: {fileID: 435907152}
+  - component: {fileID: 3180402053451738085}
   m_Layer: 0
   m_Name: BalloonBlue
   m_TagString: Untagged
@@ -121,7 +121,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!60 &435907152
+--- !u!60 &3180402053451738085
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

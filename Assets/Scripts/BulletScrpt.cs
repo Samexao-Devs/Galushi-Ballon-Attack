@@ -10,6 +10,7 @@ public class BulletScrpt : MonoBehaviour
     private Vector2 Direction;
     public AudioClip Sound;
     public AudioClip SoundExploit;
+    private int difficulty=100;
 
 
     void Start()
@@ -39,6 +40,22 @@ public class BulletScrpt : MonoBehaviour
         BalloonBlue ballonb = collision.GetComponent<BalloonBlue>();
         BalloonGreen ballong = collision.GetComponent<BalloonGreen>();
 
+
+        if (ScoreScript.scoreValue > difficulty)
+        {
+            Balloon.x += 1;
+            Balloon.y += 1;
+            BalloonBlue.x += 1;
+            BalloonBlue.y += 1;
+            BalloonGreen.x += 1;
+            BalloonGreen.y += 1;
+            BalloonSpawner.v += .10f;
+            BalloonRespawnBlue.v += 0.25f;
+            BalloonGreenSpawner.v += .10f;
+            difficulty += 300;
+           
+
+        }
         if (ballon != null)
         {
             ballon.Hit();
@@ -50,18 +67,18 @@ public class BulletScrpt : MonoBehaviour
         if (ballonb != null)
         {
             ballonb.Hit();
-            ScoreScript.scoreValue += 10;
+            ScoreScript.scoreValue += 30;
             if (PlayerController.vidaActual < 10) PlayerController.vidaActual += 1;
         }
         DestroyBullet();
 
         if (ballong != null)
         {
-            ballong.Hit();
+            ballong.Hit(); 
             ScoreScript.scoreValue += 10;
             if (PlayerController.vidaActual < 10) PlayerController.vidaActual += 1;
         }
         DestroyBullet();
     }
-
+   
 }
