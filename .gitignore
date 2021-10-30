@@ -18,6 +18,8 @@ sysinfo.txt
 ###
 [Ee]xportedObj/
 *.booproj
+
+*.csproj
 *.suo
 *.svd
 *.unityproj
