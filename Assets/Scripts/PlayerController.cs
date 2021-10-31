@@ -1,16 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     public GameObject BulletPrefab;
     private Rigidbody2D rb;
     public float speed;
-    Vector2 input;
+    public static Vector2 input;
     private float LastShoot;
     public Image barraDeVida;
     public static float vidaActual =10;
@@ -34,6 +30,7 @@ public class PlayerController : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
     // Update is called once per frame
     void Update()
     {
@@ -46,6 +43,7 @@ public class PlayerController : MonoBehaviour
             Shoot();
             LastShoot = Time.time;
 		}
+
         barraDeVida.fillAmount = vidaActual / vidaMaxima;
         
         vidaActual = vidaActual - Time.deltaTime;
@@ -77,8 +75,6 @@ public class PlayerController : MonoBehaviour
         else direction = Vector3.left;
         GameObject bullet= Instantiate(BulletPrefab, transform.position + direction * 2.0f, Quaternion.identity);
         bullet.GetComponent<BulletScrpt>().SetDirection(direction);
-
-       
     }
    
 

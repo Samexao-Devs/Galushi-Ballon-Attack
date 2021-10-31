@@ -64,24 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Balloon.cs" />
-    <Compile Include="Assets\Scripts\BalloonBlue.cs" />
-    <Compile Include="Assets\Scripts\BalloonGreen.cs" />
-    <Compile Include="Assets\Scripts\BalloonGreenSpawner.cs" />
-    <Compile Include="Assets\Scripts\BalloonRespawnBlue.cs" />
-    <Compile Include="Assets\Scripts\BalloonSpawner.cs" />
-    <Compile Include="Assets\Scripts\BulletScrpt.cs" />
-    <Compile Include="Assets\Scripts\ButtonExit.cs" />
-    <Compile Include="Assets\Scripts\CambiarescenaJuego.cs" />
-    <Compile Include="Assets\Scripts\Controladorescena.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\GameOverScreen.cs" />
-    <Compile Include="Assets\Scripts\MenuManager.cs" />
-    <Compile Include="Assets\Scripts\Paused.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\ScoreScript.cs" />
-    <Compile Include="Assets\Scripts\Sound.cs" />
-    <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -777,6 +759,10 @@
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{E6FFCA1C-80BF-00E5-0887-E94791181D11}</Project>
       <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Scripts.csproj">
+      <Project>{4E75F5F6-262E-F8A3-A42A-31B537830CA4}</Project>
+      <Name>Scripts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -83,6 +83,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Scripts">
+      <HintPath>Library/ScriptAssemblies/Scripts.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
     </Reference>
@@ -661,24 +664,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Balloon.cs" />
-    <Compile Include="Assets\Scripts\BalloonBlue.cs" />
-    <Compile Include="Assets\Scripts\BalloonGreen.cs" />
-    <Compile Include="Assets\Scripts\BalloonGreenSpawner.cs" />
-    <Compile Include="Assets\Scripts\BalloonRespawnBlue.cs" />
-    <Compile Include="Assets\Scripts\BalloonSpawner.cs" />
-    <Compile Include="Assets\Scripts\BulletScrpt.cs" />
-    <Compile Include="Assets\Scripts\ButtonExit.cs" />
-    <Compile Include="Assets\Scripts\CambiarescenaJuego.cs" />
-    <Compile Include="Assets\Scripts\Controladorescena.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\GameOverScreen.cs" />
-    <Compile Include="Assets\Scripts\MenuManager.cs" />
-    <Compile Include="Assets\Scripts\Paused.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\ScoreScript.cs" />
-    <Compile Include="Assets\Scripts\Sound.cs" />
-    <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
